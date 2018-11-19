@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/triangle"
+            android:layout_weight="1.0"
+            android:text="Storage"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:drawableTop="@drawable/storage"
+            android:paddingTop="40dp"
+            android:paddingBottom="40dp"
+            android:onClick="onClick2" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/triangle"
+            android:layout_weight="1.0"
+            android:text="SERVICES"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:drawableTop="@drawable/gears"
+            android:paddingTop="40dp"
+            android:paddingBottom="45dp"
+            android:onClick="onClick1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/triangle"
+            android:layout_weight="1.0"
+            android:text="Monitoring"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:drawableTop="@drawable/monioring"
+            android:paddingTop="40dp"
+            android:paddingBottom="40dp"
+            android:onClick="onClick3" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/triangle"
+            android:layout_weight="1.0"
+            android:text="Operate"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:drawableTop="@drawable/operate"
+            android:paddingTop="40dp"
+            android:paddingBottom="45dp"
+            android:onClick="onClick4" />
+
+    </LinearLayout>
+</LinearLayout>

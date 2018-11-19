@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tv"
+    android:textColor="@color/darker_green_text"
+    android:padding="5sp"
+    android:layout_width="fill_parent"
+    android:gravity="center"
+    android:layout_height="fill_parent"
+    android:textSize="20sp"
+    android:textAlignment="viewStart"
+    android:layout_marginBottom="5dp"
+    />

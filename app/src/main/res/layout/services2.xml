@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0">
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/triangle"
+                android:layout_weight="1.0"
+                android:text="Services"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:drawableTop="@drawable/services"
+                android:paddingTop="40dp"
+                android:paddingBottom="40dp"
+                android:layout_alignParentBottom="true"
+                android:onClick="services_click" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:background="@drawable/triangle"
+                android:layout_weight="1.0"
+                android:text="Ports"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:drawableTop="@drawable/ports"
+                android:paddingTop="40dp"
+                android:paddingBottom="45dp"
+                android:layout_alignParentBottom="true"
+                android:layout_height="200dp"
+                android:onClick="ports_click" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

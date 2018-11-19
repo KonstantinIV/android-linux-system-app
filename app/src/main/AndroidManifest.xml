@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.konsta.nufik.loputoo2">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+    android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Menus.list_options"></activity>
+        <activity android:name=".Storage.Partition_table"></activity>
+        <activity android:name=".Service.open_ports"></activity>
+        <activity android:name=".Service.services"></activity>
+        <activity android:name=".Monitor.cpu" android:noHistory="true"></activity>
+        <activity android:name=".Monitor.ram"></activity>
+        <activity android:name=".Monitor.net" ></activity>
+        <activity android:name=".Administrate.com" ></activity>
+        <activity android:name=".Administrate.scripts"></activity>
+        <activity android:name=".Menus.services2"></activity>
+        <activity android:name=".Menus.monitoring"></activity>
+        <activity android:name=".Menus.operate"></activity>
+    </application>
+
+</manifest>
