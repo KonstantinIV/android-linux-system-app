@@ -3,7 +3,7 @@
 # Needs tons of optimization, becasue the code is bad, but works 
 Gets stats from linux server and displays them on phone
 <br>
-![alt text](https://raw.githubusercontent.com/KonstantinIV/android-linux-system-app/master/examples/Capture%201.PNG )
+![alt text](https://raw.githubusercontent.com/KonstantinIV/android-linux-system-app/master/Android%20app/examples/Capture%201.PNG )
 ![alt text](https://raw.githubusercontent.com/KonstantinIV/android-linux-system-app/master/examples/Capture%202.PNG )
 ![alt text](https://raw.githubusercontent.com/KonstantinIV/android-linux-system-app/master/examples/Capture%203.PNG )
 ![alt text](https://raw.githubusercontent.com/KonstantinIV/android-linux-system-app/master/examples/Capture%204.PNG )
