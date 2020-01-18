@@ -1,6 +1,7 @@
 # android-linux-system-app 
-# Something i have done as final work
-# Needs tons of optimization, becasue the code is bad, but works 
+
+# Needs a lot of optimization and code refactoring
+
 Gets stats from linux server and displays them on phone
 <br>
 ![alt text](https://raw.githubusercontent.com/KonstantinIV/android-linux-system-app/master/Android%20app/examples/Capture%201.PNG )
