@@ -1,5 +1,5 @@
 # android-linux-system-app 
-
+Made as a school final project, mobile app that allows to monitor linux system.
 # Needs a lot of optimization and code refactoring
 
 Gets stats from linux server and displays them on phone
